@@ -1,4 +1,4 @@
-# in your terminal, run: conda env create -f premise environment.yaml
+# in your terminal, run: conda env create -f premise_environment.yaml
 
 name: premise_env
 channels:
@@ -11,3 +11,4 @@ dependencies:
   - matplotlib
   - eidl
   - unfold
+  - seaborn
