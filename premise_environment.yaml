@@ -1,9 +1,11 @@
-# in your terminal, run: conda env create -f premise_environment.yaml
+# in your terminal, run conda: conda env create -f premise_environment.yaml
+# or mamba (faster): mamba env create -f premise_environment.yaml
 
 name: premise_env
 channels:
   - romainsacchi
   - defaults
+  - conda-forge
 dependencies:
   - python=3.10
   - premise
@@ -12,3 +14,4 @@ dependencies:
   - eidl
   - unfold
   - seaborn
+  - polyviz
