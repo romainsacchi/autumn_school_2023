@@ -11,6 +11,5 @@ dependencies:
   - premise
   - jupyterlab
   - matplotlib
-  - eidl
   - unfold
   - seaborn
