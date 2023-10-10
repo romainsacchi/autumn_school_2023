@@ -1,18 +1,18 @@
 {
     "profile": "data-package",
-    "name": "exercise-car-europe",
-    "title": "Exercise: projection for passenger cars in Europe",
-    "description": "A scenario example of prospective analysis for passenger car fleets in Europe",
+    "name": "scenario-example-bread",
+    "title": "Scenario Example Bread",
+    "description": "A scenario example of prospective bread scenario to be used in premise",
     "version": "0.0.3",
     "contributors":[{
     "title": "Romain Sacchi",
     "email": "r_s@me.com"
     }],
     "dependencies": {
-        "premise": ">=1.7.4"
+        "premise": ">=1.2.5"
     },
     "ecoinvent": {
-        "version": "3.9",
+        "version": "3.8",
         "system model": "cut-off"
     },
     "scenarios": {
@@ -123,6 +123,31 @@
                         "name": "2050",
                         "type": "number",
                         "format": "default"
+                    },
+                    {
+                        "name": "2060",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2070",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2080",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2090",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2100",
+                        "type": "number",
+                        "format": "default"
                     }
                 ],
                 "missingValues": [
@@ -131,7 +156,7 @@
             }
         },
         {
-            "path": "inventories/lci-car.csv",
+            "path": "inventories/lci-bread.csv",
             "profile": "data-resource",
             "name": "inventories",
             "format": "csv",
